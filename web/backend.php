@@ -9,6 +9,9 @@ define('YZ_ROOT',dirname(__FILE__));
 define('YZ_APP_DIR',YZ_ROOT.'/protected');
 define('YZ_VENDOR_DIR',YZ_ROOT.'/protected/vendor');
 
+// Composer autoloader
+require_once(YZ_VENDOR_DIR.'/composer/autoload.php');
+
 // change the following paths if necessary
 $yii=YZ_VENDOR_DIR.'/yiisoft/yii/framework/yii.php';
 $config=YZ_APP_DIR.'/config/backend.php';

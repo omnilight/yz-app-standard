@@ -4,5 +4,7 @@
  * of application
  */
 return CMap::mergeArray(require('common.php'),array(
-
+    'admin' => array(
+        'class' => 'vendor.omnilight.yz-admin.AdminModule',
+    ),
 ));

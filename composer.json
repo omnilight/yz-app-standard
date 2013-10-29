@@ -15,11 +15,12 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/omnilight/yz-ext"
+            "url": "https://github.com/omnilight/yz-admin"
         }
     ],
     "require": {
-        "omnilight/yz": "*"
+        "omnilight/yz": "*",
+        "omnilight/yz-admin": "*"
     },
     "config": {
         "vendor-dir": "protected/vendor"
