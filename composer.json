@@ -1,0 +1,23 @@
+{
+    "name": "omnilight/yzengine-app-standard",
+    "description": "Standard application based on Yii and Yz Engine",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/omnilight/yz"
+        }
+    ],
+    "require": {
+        "omnilight/yz": "*"
+    },
+    "config": {
+        "vendor-dir": "protected/vendor"
+    }
+}
