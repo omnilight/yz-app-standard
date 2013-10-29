@@ -12,6 +12,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/omnilight/yz"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/omnilight/yz-ext"
         }
     ],
     "require": {
